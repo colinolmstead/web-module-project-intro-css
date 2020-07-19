@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.head-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  padding-left: 15px;
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  color: white;
+}
+.visit {
+  background-color: #ff764e;
+}
+
+.park {
+  background-color: #5ed3eb;
+}
+
+.involved {
+  background-color: #ffcd69;
+}
+.introduction {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+}
+.introduction img {
+  border-radius: 50%;
+  width: 250px;
+}
+.head {
+  margin-left: -50px;
+}
+
+.head h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 50px;
+}
+
+.head p {
+  justify-content: center;
+}
+.center {
+  justify-content: center;
+}
+.overall-facts img {
+  width: 15em;
+  margin: 0 auto;
+}
+
+.overall-facts p {
+  width: 50vw;
+  margin: 50px auto;
+}
+
+.overall-facts > p {
+  padding: 75px;
+  background-color: #ddb9a3;
+  width: 80vw;
+}
+.fire {
+  justify-content: center;
+  align-items: center;
+}
+.facts {
+  display: flex;
+  flex-direction: column;
+}
+
+.facts img {
+  width: 15em;
+  margin: 0 auto;
+}
+
+.facts p {
+  width: 50vw;
+  margin: 50px auto;
+}
+
+.facts > p {
+  padding: 75px;
+  background-color: #ddb9a3;
+  width: 80vw;
+}
+.more-facts {
+  flex-direction: column;
+  justify-content: center;
+  background-color: none;
+}
+.head {
+  font-family: roboto-mono;
+}
+.camper {
+  width: 15rem;
+}
